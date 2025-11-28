@@ -2,3 +2,19 @@
   --primary-color: #5e44ff;
   --button-color: #1a1a2c;
 }
+
+* {
+	font-family: Inter;
+}
+
+.hero-section {
+  color: var(--primary-color);
+}
+
+.feature-section {
+  color: var(--primary-color);
+}
+
+.contact-section {
+  color: var(--primary-color);
+}
