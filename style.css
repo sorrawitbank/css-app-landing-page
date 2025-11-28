@@ -132,9 +132,7 @@ nav .logo {
 
     .feature-box h3 {
       font-size: 1.2rem;
-      color: #333;
       margin-bottom: 10px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     }
 
     .icon-wrap img {
@@ -148,10 +146,9 @@ nav .logo {
       line-height: 1.4;
     }
 
-       .feature-box:nth-child(1) .icon-wrap {background-color: #eef0ff; color: #5c6ac4; }
-       .feature-box:nth-child(2) .icon-wrap {background-color: #e0f7fa; color: #00bcd4; }
-
-       .feature-box:nth-child(3) .icon-wrap {background-color: #ffecf9; color: #e91e63; }
+       .feature-box:nth-child(1) .icon-wrap {background-color: #eef0ff; }
+       .feature-box:nth-child(2) .icon-wrap {background-color: #e0f7fa; }
+       .feature-box:nth-child(3) .icon-wrap {background-color: #ffecf9; }
 
        .feature-box h3 {
         font-size: 1.3rem; 
