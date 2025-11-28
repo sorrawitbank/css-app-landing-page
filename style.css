@@ -4,7 +4,41 @@
 }
 
 * {
-	font-family: Inter;
+  font-family: Inter;
+}
+
+body {
+  background-color: #f6f6fd;
+}
+
+a {
+  font-size: 16px;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: var(--primary-color);
+}
+
+nav {
+  padding: 12px 80px;
+  border-radius: 99px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+	box-shadow: 0 4px 20px 0 rgb(147, 121, 202, 0.05);
+}
+
+nav a {
+  padding: 0px 24px;
+}
+
+nav .logo {
+  height: 40px;
 }
 
 .hero-section {
