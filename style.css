@@ -63,6 +63,7 @@ nav {
 
 nav a {
   padding: 0px 24px;
+	font-weight: 500;
 }
 
 nav .logo {
