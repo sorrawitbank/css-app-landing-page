@@ -40,6 +40,7 @@ a:hover {
 button {
   color: white;
   background-color: var(--button-color);
+	cursor: pointer;
   border: 0px;
   border-radius: 16px;
   font-size: 16px;
