@@ -1,40 +1,70 @@
 :root {
   --primary-color: #5e44ff;
   --button-color: #1a1a2c;
+  --hover-button-color: #5f5f76;
 }
 
 * {
   font-family: Inter;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
   background-color: #f6f6fd;
 }
 
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 44px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
 a {
   font-size: 16px;
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 
 a:hover {
-	text-decoration: underline;
-	color: var(--primary-color);
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+button {
+  color: white;
+  background-color: var(--button-color);
+	cursor: pointer;
+  border: 0px;
+  border-radius: 16px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: var(--hover-button-color);
 }
 
 nav {
   padding: 12px 80px;
+  margin: 24px;
   border-radius: 99px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background-color: white;
-	box-shadow: 0 4px 20px 0 rgb(147, 121, 202, 0.05);
+  box-shadow: 0 4px 20px 0 #9379ca0d;
 }
 
 nav a {
   padding: 0px 24px;
+	font-weight: 500;
 }
 
 nav .logo {
@@ -42,7 +72,29 @@ nav .logo {
 }
 
 .hero-section {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-section .app-title {
+  padding: 8px 20px;
+  border-radius: 99px;
+  font-size: 16px;
   color: var(--primary-color);
+  background-color: #563aff1a;
+}
+
+.hero-section .product {
+  color: var(--primary-color);
+}
+
+.hero-section button {
+  width: 187px;
+  height: 56px;
+  padding: 16px 36px;
 }
 
 .feature-section {
