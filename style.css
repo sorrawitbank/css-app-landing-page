@@ -97,9 +97,39 @@ nav .logo {
   padding: 16px 36px;
 }
 
-.feature-section {
-  color: var(--primary-color);
-}
+  .feature-section {
+      color: var(--button-color);
+      padding: 60px 0;
+      background-color: #f7f9fc;
+  }
+
+  .feature-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;}
+
+  .feature-box {
+    flex: 1 1 300px; 
+    background-color: #ffffff;
+    border-radius: 12px; 
+    padding: 30px; 
+    text-align: left;
+    }
+
+    .icon-wrap {
+      font-size: 2rem;
+      background-color: #e6f0ff;
+      width: 80px;
+      height: 80px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 15px;
+  }
 
 
 
